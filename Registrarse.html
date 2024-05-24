@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilosLR.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <main>
+        <div>
+            <div class="contenedor">
+                <div class="titulo">
+                    <h2>Crea tu cuenta. <br />Aquí, todo es mas divertido xD.</h2>
+                    <ul>
+                        <h3>Compras más rápidas y seguras</h3>
+                        <li>Protege tus datos e información de pago.</li>
+                        <li>Revisa el historial de tus compras.</li>
+                        <li>Compra más rápido en tus siguientes visitas.</li>
+                        <li>Guarda tus distintas direcciones de entrega.</li>
+                    </ul>
+                    <ul>
+                        <h3>Disfruta los beneficios de tu cuenta</h3>
+                        <li>Compra en línea con Mercado Pago</li>
+                        <li>Guarda tus productos favoritos</li>
+                        <li>Promociones *Proximamente*</li>
+                    </ul>
+
+                </div>
+                <form action="scriptsPHP/procesar_registro.php" method="post">
+                    <h2>Formulario de Registro</h2>
+                    <div class="grupo-form">
+                        <input type="text" id="nombre" name="nombre" required />
+                        <label for="nombre">Nombre:</label>
+                    </div>
+                    <div class="grupo-form">
+                        <input type="text" id="apellidos" name="apellidos" placeholder="" required />
+                        <label for="apellidos">Apellidos:</label>
+                    </div>
+                    <div class="grupo-form">
+                        <input type="email" id="email" name="email" placeholder="" required />
+                        <label for="email">E-mail:</label>
+                    </div>
+                    <div class="grupo-form">
+                        <input type="password" id="password" name="password" placeholder="" required />
+                        <label for="password">Password:</label>
+                        <div class="instrcciones-contrasena" id="instruccionesContrasena">
+                            <h4>Para una contraseña segura:</h4>
+                            <ul>
+                                <li id="li1">
+                                    <span id="checkSymbol1">✓</span> Minimo 8 caracteres
+                                </li>
+                                <li id="li2">
+                                    <span id="checkSymbol2">✓</span> Al menos una mayúscula
+                                </li>
+                                <li id="li3">
+                                    <span id="checkSymbol3">✓</span> Al menos un número
+                                </li>
+                                <li>Caracteres que tu recuerdes</li>
+                                <li>Lento pero seguro xD</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="botones">
+                        <input type="submit" value="Crea tu cuenta" />
+                    </div>
+                    <p style="margin-bottom: 0; display: flex; flex-direction: column;" >¿Ya tienes cuenta? <a href="Iniciar_Sesion.php">Inicia sesión</a></p>
+                </form>
+                <a href="#QuienesSomos" class="down"><img src="Resources/flecha.svg" alt=""></a>
+            </div>
+
+
+            <section class="informacion cab" id="QuienesSomos">
+                <img style="padding-top: 130px;" src="Resources/QuienesSomos.webp" alt="">
+                <div style="padding-top: 130px;">
+                    <h2>Quienes somos</h2>
+                    <p>Bienvenido a PetTopía, tu destino en línea para todo lo relacionado con el maravilloso mundo de
+                        las mascotas, acuarios y terrarios. En PetTopía, nos apasiona crear un espacio donde la
+                        diversidad de la vida animal se encuentra con la excelencia en productos y servicios.</p>
+                    <p>Nuestra identidad va más allá de ser simplemente una tienda en línea; somos un equipo apasionado
+                        con un propósito compartido y una dedicación inquebrantable a la comunidad de amantes de las
+                        mascotas.</p>
+                </div>
+            </section>
+            <div class="linea"></div>
+            <section class="informacion">
+                <div>
+                    <h2>Experiencia</h2>
+                    <p>En PetTopía, nuestra experiencia es el resultado de años dedicados al cuidado y la fascinación
+                        por el reino animal. Desde nuestros primeros días, nos hemos sumergido en el apasionante mundo
+                        de las mascotas, peces, acuarios y terrarios, explorando las maravillas que cada criatura aporta
+                        a la vida.</p>
+                </div>
+                <img src="Resources/maxresdefault.jpg" alt="">
+            </section>
+            <div class="linea"></div>
+            <section class="informacion">
+                <img src="Resources/reptiles.3082347a.webp" alt="">
+                <div>
+                    <h2>Mision</h2>
+                    <p>En PetTopía, nuestra misión es brindar a nuestros clientes una experiencia de compra única y
+                        satisfactoria. Nos esforzamos por ofrecer productos de alta calidad que no solo cumplen, sino
+                        que superan las expectativas de nuestros clientes.</p>
+                    <p>Además, estamos comprometidos con la promoción de prácticas éticas en el cuidado de mascotas y la
+                        preservación del medio ambiente.</p>
+                </div>
+            </section>
+            <div class="linea"></div>
+            <section class="informacion">
+                <div>
+                    <h2>Historia</h2>
+                    <p>PetTopía nació de la idea de proporcionar a los amantes de las mascotas un lugar donde puedan
+                        encontrar todo lo que necesitan para el cuidado, la diversión y el bienestar de sus queridos
+                        compañeros. Con un equipo apasionado de expertos en mascotas, acuarios y terrarios, hemos
+                        reunido una selección cuidadosamente curada de productos que reflejan nuestro compromiso con la
+                        calidad y la satisfacción del cliente.</p>
+                </div>
+                <img src="Resources/preparacion-de-agua-para-peceras-guia-paso-a-paso.jpg" alt="">
+            </section>
+            <div class="linea"></div>
+            <section class="informacion">
+                <div>
+                    <h2>Politicas de devolucion</h2>
+                    <p>En PetTopía, valoramos tu satisfacción y queremos asegurarnos de que tengas una experiencia de
+                        compra sin preocupaciones. Nuestras políticas de devolución están diseñadas para brindarte
+                        tranquilidad en caso de que necesites realizar cambios en tu compra.</p>
+                    <h3>1. Devoluciones Simples y Rápidas:</h3>
+                    <p>Si por alguna razón no estás completamente satisfecho con tu compra, ofrecemos un proceso de
+                        devolución simple y rápido. Puedes devolver productos no utilizados en su empaque original
+                        dentro de los 30 días posteriores a la compra.</p>
+                    <h3>2. Artículos Elegibles para Devolución:</h3>
+                    <p>La mayoría de nuestros productos son elegibles para devolución, a menos que se especifique lo
+                        contrario en la descripción del producto. Los productos deben estar en condiciones nuevas y sin
+                        uso para calificar para la devolución.</p>
+                    <h3>3. Proceso de Devolución:</h3>
+                    <p>Para iniciar el proceso de devolución, comunícate con nuestro equipo de atención al cliente a
+                        través de nuestro correo electrónico de soporte (support@pettopia.com) proporcionando la
+                        información de tu pedido y el motivo de la devolución. Te proporcionaremos instrucciones
+                        detalladas sobre cómo proceder.s</p>
+                    <h3>4. Reembolso o Cambio:</h3>
+                    <p>Una vez que recibamos y verifiquemos el estado del producto devuelto, procesaremos un reembolso
+                        completo o facilitaremos un cambio, según tu preferencia. Los reembolsos se procesarán
+                        utilizando el mismo método de pago utilizado para la compra original.</p>
+                    <h3>5. Gastos de Envío de Devolución:</h3>
+                    <p>Los gastos de envío de devolución serán responsabilidad del cliente, a menos que la devolución
+                        sea el resultado de un error por parte de PetTopía o de un producto defectuoso.</p>
+                    <h3>6. Productos Defectuosos o Dañados:</h3>
+                    <p>En caso de recibir un producto defectuoso o dañado, por favor, comunícate con nuestro equipo de
+                        atención al cliente de inmediato. Te proporcionaremos instrucciones sobre cómo proceder y
+                        resolveremos la situación de la manera más conveniente para ti.</p>
+                    <h3>7. Cambios en Políticas de Devolución:</h3>
+                    <p>Nos reservamos el derecho de realizar cambios en nuestras políticas de devolución en cualquier
+                        momento. Cualquier modificación se publicará en nuestro sitio web, y se aplicará a todas las
+                        compras realizadas después de la fecha de cambio.</p>
+                </div>
+            </section>
+
+    </main>
+    <footer>
+        <section>
+            <h4>Contactanos</h4>
+        </section>
+        <section>
+            <h5>Dirección</h5>
+            <p>PetTopía S.A. de C.V.</p>
+            <p>Calle de las Mascotas #123</p>
+            <p>Colonia Animalia</p>
+            <p>Ciudad Petville, CP 12345</p>
+            <p>País de las Mascotas</p>
+            <h5>Número de Teléfono:</h5>
+            <a href="tel:+1 (555) 123-456">+1 (555) 123-456</a>
+        </section>
+        <section>
+            <h5>Correo Electrónico de Soporte:</h5>
+            <a href="mailto:support@pettopia.com">support@pettopia.com</a>
+            <h5>Horario de Atención al Cliente:</h5>
+            <p>Lunes a Viernes: 9:00 a.m. - 6:00 p.m.</p>
+            <p>Sábado: 10:00 a.m. - 2:00 p.m. (Hora local de Petville)</p>
+        </section>
+        <section>
+            <h5>Redes Sociales:</h5>
+            <p>Facebook: <a target="_blank" href="">facebook.com/pettopia</a></p>
+            <p>Instagram: @pettopia_official</p>
+            <p>Twitter: @PetTopia_tweets</p>
+        </section>
+    </footer>
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const scrollContainer = document.querySelector(".scroll-container");
+        scrollContainer.addEventListener("wheel", function (event) {
+            const delta = event.deltaY;
+            scrollContainer.scrollTop += delta;
+        });
+    });
+    //************
+    const inputText = document.querySelector('input[type = "submit"]');
+
+    inputText.addEventListener("focus", () => {
+        inputText.parentElement.classList.add("active");
+    });
+
+    inputText.addEventListener("blur", () => {
+        const borrarEspacio = inputText.value.trim();
+        if (!borrarEspacio === "") {
+            inputText.parentElement.classList.remove("active");
+        }
+    });
+
+    //*****************
+    const inputContrasena = document.getElementById("password");
+    const instrucciones = document.getElementById("instruccionesContrasena");
+    const li1 = document.getElementById("li1");
+    const li2 = document.getElementById("li2");
+    const li3 = document.getElementById("li3");
+    const checkSymbol1 = document.getElementById("checkSymbol1");
+    const checkSymbol2 = document.getElementById("checkSymbol2");
+    const checkSymbol3 = document.getElementById("checkSymbol3");
+
+    inputContrasena.addEventListener("input", () => {
+        instrucciones.style.opacity = "1";
+
+        if (inputContrasena.value !== "") {
+            li1.style.color = inputContrasena.value.length >= 8 ? "black" : "grey";
+            li2.style.color = /[A-Z]/.test(inputContrasena.value) ? "black" : "grey";
+            li3.style.color = /[0-9]/.test(inputContrasena.value) ? "black" : "grey";
+            checkSymbol1.style.color = inputContrasena.value.length >= 8 ? "green" : "red";
+            checkSymbol2.style.color = /[A-Z]/.test(inputContrasena.value) ? "green" : "red";
+            checkSymbol3.style.color = /[0-9]/.test(inputContrasena.value) ? "green" : "red";
+        } else {
+            li1.style.color = li2.style.color = li3.style.color = "grey";
+            checkSymbol1.style.color = checkSymbol2.style.color = checkSymbol3.style.color = "grey";
+        }
+    });
+
+    inputContrasena.addEventListener("blur", () => {
+        instrucciones.style.opacity = "0";
+    });
+</script>
+
+</html>

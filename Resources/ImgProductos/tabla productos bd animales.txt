@@ -1,0 +1,119 @@
+-- Animales de agua dulce (Categoría 1)
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Pez Beta', 'Pez de colores brillantes para tu acuario', 15.99, 50, 'Resources/ImgProductos/pez_beta.jpg', 4, 1),
+    ('Tetra Neón', 'Peces pequeños y vibrantes para tu acuario', 12.50, 30, 'Resources/ImgProductos/tetra_neon.jpg', 5, 1),
+    ('Caracol Manzana', 'Caracol de agua dulce para controlar algas', 8.99, 20, 'Resources/ImgProductos/caracol_manzana.jpg', 4, 1);
+
+-- Animales de agua salada (Categoría 2)
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Pez Payaso', 'Pez característico de arrecifes de coral', 29.99, 40, 'Resources/ImgProductos/pez_payaso.jpg', 4, 2),
+    ('Cangrejo Ermitaño', 'Cangrejo perfecto para acuarios marinos', 18.75, 25, 'Resources/ImgProductos/cangrejo_ermitano.jpg', 4, 2),
+    ('Estrella de Mar', 'Decoración única para acuarios de agua salada', 24.50, 15, 'Resources/ImgProductos/estrella_de_mar.jpg', 4, 2);
+
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Gamba Roja', 'Gamba de agua dulce con colores vibrantes', 5.99, 30, 'Resources/ImgProductos/gamba_roja.jpg', 4, 1),
+    ('Gamba Azul', 'Gamba exótica con tonos azules intensos', 7.50, 20, 'Resources/ImgProductos/gamba_azul.jpg', 5, 1),
+('Pecera de Vidrio', 'Pecera de vidrio resistente para peces de agua dulce', 49.99, 15, 'Resources/ImgProductos/pecera_vidrio.jpg', 4, 1),
+    ('Red para Peces', 'Red fina para la captura fácil y segura de peces', 8.75, 25, 'Resources/ImgProductos/red_peces.jpg', 4, 1),
+    ('Bomba de Agua', 'Bomba de agua eficiente para mantener la circulación', 19.50, 20, 'Resources/ImgProductos/bomba_agua.jpg', 4, 1),
+    ('Filtro de Acuario', 'Filtro para mantener el agua limpia y cristalina', 29.99, 18, 'Resources/ImgProductos/filtro_acuario.jpg', 5, 1),
+    ('Acondicionador de Agua', 'Acondicionador para eliminar cloro y metales pesados', 12.50, 30, 'Resources/ImgProductos/acondicionador_agua.jpg', 4, 1),
+    ('Test de Agua', 'Kit de pruebas para medir la calidad del agua', 14.99, 25, 'Resources/ImgProductos/test_agua.jpg', 4, 1);
+
+
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Roca Viva', 'Roca natural para acuarios de agua salada', 39.99, 20, 'Resources/ImgProductos/roca_viva.jpg', 4, 2),
+    ('Arena de Coral', 'Arena natural para acuarios de arrecife', 22.50, 30, 'Resources/ImgProductos/arena_coral.jpg', 4, 2),
+    ('Lámpara LED para Acuario Marino', 'Iluminación LED específica para acuarios de agua salada', 89.99, 15, 'Resources/ImgProductos/lampara_acuario_marino.jpg', 5, 2),
+    ('Sal Marina para Acuarios', 'Sal especial para mantener la salinidad del agua', 15.75, 25, 'Resources/ImgProductos/sal_marina.jpg', 4, 2),
+    ('Coral de Cuerno de Ciervo', 'Coral de aspecto único para acuarios marinos', 49.50, 18, 'Resources/ImgProductos/coral_ciervo.jpg', 4, 2),
+    ('Kit de Pruebas de Salinidad', 'Kit de pruebas para medir la salinidad del agua', 12.99, 30, 'Resources/ImgProductos/test_salinidad.jpg', 4, 2),
+('Suplemento para Corales', 'Suplemento especial para promover el crecimiento y salud de los corales', 26.99, 25, 'Resources/ImgProductos/suplemento_corales.jpg', 4, 2);
+
+-- Reptiles - Accesorios para Terrario
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Sustrato de Coco', 'Sustrato natural y ecológico para terrarios de reptiles', 15.99, 40, 'Resources/ImgProductos/sustrato_coco.jpg', 4, 3),
+    ('Termómetro Digital para Terrario', 'Termómetro preciso para controlar la temperatura del terrario', 8.50, 30, 'Resources/ImgProductos/termometro_digital.jpg', 4, 3),
+    ('Higrómetro Digital', 'Higrómetro para medir la humedad en el terrario', 12.25, 25, 'Resources/ImgProductos/higrometro_digital.jpg', 4, 3),
+    ('Cueva de Escondite', 'Cueva realista para proporcionar refugio a los reptiles', 19.99, 20, 'Resources/ImgProductos/cueva_escondite.jpg', 4, 3),
+    ('Rama de Reptil', 'Rama natural para que los reptiles trepen y se escondan', 14.75, 28, 'Resources/ImgProductos/rama_reptil.jpg', 4, 3),
+    ('Comedero y Bebedero para Reptiles', 'Conjunto de comedero y bebedero fácil de limpiar', 10.99, 30, 'Resources/ImgProductos/comedero_bebedero.jpg', 4, 3),
+    ('Iluminación UVB para Terrario', 'Lámpara UVB para el bienestar y salud de los reptiles', 34.50, 15, 'Resources/ImgProductos/iluminacion_uvb.jpg', 5, 3),
+    ('Humidificador Automático', 'Humidificador para mantener niveles adecuados de humedad', 42.99, 18, 'Resources/ImgProductos/humidificador.jpg', 4, 3),
+    ('Termocalentador para Terrario', 'Calentador ajustable para mantener la temperatura adecuada', 28.75, 22, 'Resources/ImgProductos/termocalentador.jpg', 4, 3);
+
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Lecho de Virutas de Madera', 'Lecho natural y absorbente para jaulas de roedores', 12.99, 40, 'Resources/ImgProductos/lecho_virutas.jpg', 4, 4),
+    ('Juguete de Madera para Roedores', 'Juguete natural para roedores que promueve la actividad', 9.50, 30, 'Resources/ImgProductos/juguete_madera.jpg', 4, 4),
+    ('Rueda de Ejercicio para Hámster', 'Rueda silenciosa para que los hámsteres hagan ejercicio', 14.25, 25, 'Resources/ImgProductos/rueda_ejercicio.jpg', 4, 4),
+    ('Laberinto para Ratones', 'Laberinto interactivo para ratones y ratas', 22.99, 20, 'Resources/ImgProductos/laberinto_roedores.jpg', 4, 4),
+    ('Túnel de Tubos para Roedores', 'Túnel expansible para que los roedores jueguen y exploren', 18.50, 35, 'Resources/ImgProductos/tunel_tubos.jpg', 4, 4),
+    ('Comedero de Cerámica', 'Comedero resistente y fácil de limpiar para roedores', 7.99, 30, 'Resources/ImgProductos/comedero_ceramica.jpg', 4, 4),
+    ('Bebedero de Botella para Jaula', 'Bebedero de botella para mantener el agua limpia', 10.75, 28, 'Resources/ImgProductos/bebedero_botella.jpg', 4, 4),
+    ('Casita de Hámster', 'Casita acogedora para que los hámsteres se escondan', 15.99, 30, 'Resources/ImgProductos/casita_hamster.jpg', 4, 4),
+    ('Balancín para Ratones', 'Balancín entretenido para ratones y ratas', 8.50, 15, 'Resources/ImgProductos/balancin_roedores.jpg', 5, 4),
+    ('Heno Premium para Roedores', 'Heno de alta calidad para una dieta equilibrada', 11.75, 22, 'Resources/ImgProductos/heno_premium.jpg', 4, 4);
+
+-- Perros - Accesorios
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Pelota de Goma Masticable', 'Pelota resistente para juegos y masticación', 9.99, 50, 'Resources/ImgProductos/pelota_goma.jpg', 4, 5),
+    ('Juguete Interactivo para Perros', 'Juguete que estimula la mente y reduce el aburrimiento', 12.50, 40, 'Resources/ImgProductos/juguete_interactivo.jpg', 4, 5),
+    ('Cama Suave para Perros', 'Cama cómoda y acogedora para el descanso de tu perro', 34.75, 30, 'Resources/ImgProductos/cama_suave_perros.jpg', 4, 5),
+    ('Arnés Acolchado para Paseos', 'Arnés cómodo para pasear con tu perro de manera segura', 18.99, 25, 'Resources/ImgProductos/arnes_acolchado.jpg', 4, 5),
+    ('Correa Extensible para Perros', 'Correa extensible para mayor libertad de movimiento', 15.50, 35, 'Resources/ImgProductos/correa_extensible.jpeg', 4, 5),
+    ('Chaqueta Impermeable para Perros', 'Chaqueta resistente al agua para días lluviosos', 28.99, 20, 'Resources/ImgProductos/chaqueta_impermeable_perros.jpg', 4, 5),
+    ('Jaula Plegable para Perros', 'Jaula portátil y plegable para viajes y entrenamiento', 45.75, 15, 'Resources/ImgProductos/jaula_plegable.jpg', 4, 5),
+    ('Cepillo de Dientes para Perros', 'Cepillo diseñado para la higiene dental de los perros', 7.50, 30, 'Resources/ImgProductos/cepillo_dientes.jpg', 4, 5),
+    ('Dispensador de Bolsas para Excrementos', 'Dispensador práctico para llevar bolsas de limpieza', 5.75, 22, 'Resources/ImgProductos/dispensador_bolsas.jpg', 4, 5);
+
+-- Gatos - Productos Variados
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Juguete con Hierba Gatera', 'Juguete relleno de hierba gatera para estimular a tu gato', 9.99, 40, 'Resources/ImgProductos/juguete_hierba_gatera.jpg', 4, 6),
+    ('Cama Cueva para Gatos', 'Cama acogedora con forma de cueva para el descanso de tu gato', 24.50, 30, 'Resources/ImgProductos/cama_cueva_gatos.jpg', 4, 6),
+    ('Rascador de Cartón', 'Rascador de cartón para satisfacer el instinto de arañar', 12.75, 25, 'Resources/ImgProductos/rascador_carton.jpg', 4, 6),
+    ('Bola Interactiva con Luz LED', 'Bola con luz LED para entretener a tu gato durante horas', 8.99, 35, 'Resources/ImgProductos/bola_interactiva.jpg', 4, 6),
+    ('Torre de Juegos para Gatos', 'Torre con plataformas y juguetes para el ejercicio de tu gato', 34.50, 20, 'Resources/ImgProductos/torre_juegos_gatos.jpg', 4, 6);
+
+-- Alimentos para Animales
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Granulado para Peces de Agua Dulce', 'Alimento balanceado para peces de agua dulce', 14.99, 50, 'Resources/ImgProductos/alimento_peces_agua_dulce.jpg', 4, 7),
+    ('Escamas para Peces de Agua Salada', 'Alimento especial para peces de agua salada en escamas', 18.50, 40, 'Resources/ImgProductos/escamas_peces_agua_salada.jpg', 4, 7),
+    ('Croquetas Premium para Perros', 'Alimento de alta calidad para perros de todas las edades', 29.99, 35, 'Resources/ImgProductos/croquetas_premium_perros.jpg', 5, 7),
+    ('Snacks Nutritivos para Gatos', 'Snacks sabrosos y nutritivos para gatos', 12.75, 45, 'Resources/ImgProductos/snacks_gatos.jpg', 4, 7),
+    ('Heno de Alta Fibra para Roedores', 'Heno premium para roedores, rico en fibra', 9.50, 30, 'Resources/ImgProductos/heno_alta_fibra.jpg', 4, 7);
+
+-- Alimentos para Otros Animales
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Gránulos para Tortugas Acuáticas', 'Alimento específico para tortugas acuáticas', 11.99, 25, 'Resources/ImgProductos/alimento_tortugas_acuaticas.jpg', 4, 7),
+    ('Pastillas de Alimentación para Peces de Estanque', 'Pastillas nutritivas para peces de estanque', 19.50, 30, 'Resources/ImgProductos/pastillas_peces_estanque.jpg', 4, 7),
+    ('Comida para Loros', 'Mezcla de semillas y frutas para loros', 16.75, 20, 'Resources/ImgProductos/comida_loros.jpg', 4, 7),
+    ('Pellets para Hurones', 'Alimento formulado para la dieta de hurones', 22.99, 15, 'Resources/ImgProductos/pellets_hurones.jpg', 4, 7),
+    ('Gusanos de Seda para Reptiles', 'Deliciosos gusanos de seda como suplemento para reptiles', 8.50, 40, 'Resources/ImgProductos/gusanos_seda_reptiles.jpg', 4, 7);
+
+-- Plantas - Acuarios
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Anubias Nana', 'Planta acuática de crecimiento lento ideal para acuarios', 12.99, 20, 'Resources/ImgProductos/anubias_nana.jpg', 4, 8),
+    ('Musgo de Java', 'Musgo denso y resistente para decorar acuarios', 9.50, 30, 'Resources/ImgProductos/musgo_java.jpg', 4, 8);
+
+-- Plantas - Terrarios
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Helecho de Terrario', 'Helecho de interior perfecto para terrarios húmedos', 14.75, 25, 'Resources/ImgProductos/helecho_terrario.jpg', 4, 8),
+    ('Bromelia', 'Planta tropical para agregar color y textura a terrarios', 18.50, 18, 'Resources/ImgProductos/bromelia.jpg', 4, 8);
+
+-- Plantas - Ornamentales
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Cactus de Colección', 'Variedad de cactus decorativos para el hogar', 19.50, 20, 'Resources/ImgProductos/cactus_coleccion.jpg', 4, 8);
+

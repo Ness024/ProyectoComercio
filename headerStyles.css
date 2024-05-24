@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: -apple-system, system-ui;
+}
+
+a {
+    text-decoration: none;
+}
+/* Estilos de la cabecera 
+#6BD064
+#FF4147
+#009FFD
+#2A2A72
+#232528
+#EAF6FF
+*/
+header {
+    box-sizing: border-box;
+    padding: 20px 5% 15px 3%;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+header img {
+    width: 100%;
+    max-width: 40px;
+    aspect-ratio: 1/1;
+}
+
+header > div, form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    line-height: 1.65rem;
+    margin: 0;
+    font-weight: 900;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+header form {
+    align-items: flex-end;
+    box-sizing: border-box;
+    background: #656def;
+    padding: 3px 0 5px 0;
+    border-radius: 10px;
+    margin: 0;
+    width: 30%;
+    max-width: 350px;
+    min-width: 225px;
+    height: 40px;
+    transition: linear 2s;
+}
+
+header input {
+    color: #eff3f3;
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "Inter";
+    background: none;
+    border: none;
+    width: 80%;
+}
+
+header input:focus { 
+    border-bottom: solid .1em #EAF6FF;
+    outline: none;
+}
+
+header form > button {
+    margin-left: 5px;
+    background-color: transparent;
+    aspect-ratio: 1/1;
+    min-width: 25px;
+    background-image: url('Resources/Buscar.svg');
+    background-size: cover;
+    border: none;
+    border-radius: 0px;
+}
+
+header form > button:hover {
+    background-image: url("Resources/Buscarhover.svg");
+    cursor: pointer;
+}
+
+header a {
+    color: #2A2A72;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+}
+
+header a:hover {
+    color: #3432a1;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+} 
+
+header a:active {
+    color: #0364a1;
+}
+a span {
+    display: block;
+}
+
+header button {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+.carritodeCompras {
+    position: relative;
+}
+.carritodeCompras p{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    color: white;
+    background-color: #FF4147;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 1px;
+}
+#carritoCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carritodeCompras img {
+    width: 128px;
+    aspect-ratio: 1/1;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside {
+    grid-area: sidebar;
+
+footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

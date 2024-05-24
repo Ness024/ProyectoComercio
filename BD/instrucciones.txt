@@ -1,0 +1,68 @@
+----------------------------
+Ejecutar SQL en la terminal 
+----------------------------
+
+mysql -u tu_usuario -p < ruta/al/archivo/crear_tablas.sql
+
+
+
+
+
+
+
+INSERT INTO usuarios (nombre, apellidos, email, contrasena, avatar)
+VALUES
+    ('Usuario1', 'Apellido1', 'usuario1@example.com', 'contrasena1', 'Resources/1.jpg'),
+    ('Usuario2', 'Apellido2', 'usuario2@example.com', 'contrasena2', 'Resources/2.jpg'),
+    ('Usuario3', 'Apellido3', 'usuario3@example.com', 'contrasena3', 'Resources/3.jpg');
+
+
+
+INSERT INTO categorias (nombre)
+VALUES
+    ('Electrónicos'),
+    ('Ropa'),
+    ('Libros'),
+    ('Hogar'),
+    ('Juguetes');
+
+
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Smartphone X1', 'Potente smartphone con cámara de alta resolución y pantalla OLED.', 599.99, 50, 'Resources/imagen/1.jpg', 4, 1),
+    ('Zapatos Deportivos AireMax', 'Zapatos deportivos con tecnología de amortiguación de aire para una máxima comodidad.', 79.99, 30, 'Resources/imagen/2.jpg', 5, 2),
+    ('Libro "Aventuras en el Espacio"', 'Una emocionante novela de ciencia ficción que te llevará a través de galaxias lejanas.', 19.99, 100, 'Resources/imagen/3.jpg', 3, 3),
+    ('Robot Aspirador Inteligente', 'El último modelo de robot aspirador con funciones de limpieza inteligentes.', 249.99, 20, 'Resources/imagen/4.jpg', 4, 4),
+    ('Juego de Construcción "Ciudad Creativa"', 'Un juego de construcción que permite a los niños crear su propia ciudad imaginaria.', 29.99, 75, 'Resources/imagen/5.jpg', 5, 5),
+    ('Auriculares Inalámbricos ProSound', 'Auriculares inalámbricos de alta calidad con cancelación de ruido y sonido envolvente.', 129.99, 40, 'Resources/imagen/6.jpg', 4, 1),
+    ('Camiseta de Algodón Orgánico', 'Camiseta cómoda y ecológica hecha de algodón orgánico.', 24.99, 60, 'Resources/imagen/7.jpg', 3, 2),
+    ('Colección de Clásicos Literarios', 'Una colección de clásicos literarios que incluye obras maestras de la literatura mundial.', 99.99, 15, 'Resources/imagen/8.jpg', 5, 3),
+    ('Lámpara LED Inteligente', 'Lámpara LED con control inteligente mediante una aplicación móvil para ajustar el color y la intensidad de la luz.', 49.99, 80, 'Resources/imagen/9.jpg', 4, 4),
+    ('Juguete Educativo de Ciencias', 'Juguete educativo que enseña conceptos científicos básicos de manera divertida y interactiva.', 34.99, 25, 'Resources/imagen/10.jpg', 5, 5);
+
+
+INSERT INTO productos (nombre, descripcion, precio, stock, imagen, rate, categoria_id)
+VALUES
+    ('Laptop Ultradelgada EliteBook', 'Laptop ultradelgada con potentes especificaciones para el trabajo y el entretenimiento.', 1099.99, 30, 'Resources/imagen/11.jpg', 4, 1),
+    ('Zapatillas de Running SpeedPro', 'Zapatillas de running diseñadas para ofrecer velocidad y comodidad en cada paso.', 89.99, 40, 'Resources/imagen/12.jpg', 5, 2),
+    ('Libro de Cocina "Delicias Saludables"', 'Un libro de cocina que presenta recetas deliciosas y saludables para toda la familia.', 29.99, 80, 'Resources/imagen/13.jpg', 4, 3),
+    ('Cámara DSLR Profesional', 'Cámara DSLR de alta gama con capacidades profesionales para la fotografía creativa.', 1499.99, 15, 'Resources/imagen/14.jpg', 5, 4),
+    ('Juego de Mesa Estratégico "Imperio de Guerra"', 'Un juego de mesa estratégico que te desafía a construir y conquistar un imperio.', 44.99, 50, 'Resources/imagen/15.jpg', 4, 5),
+    ('Altavoces Bluetooth SurroundSound', 'Altavoces Bluetooth con sonido envolvente para una experiencia auditiva inmersiva.', 129.99, 25, 'Resources/imagen/16.jpg', 5, 1),
+    ('Jersey de Lana Merino', 'Jersey elegante y cálido hecho de lana merino de alta calidad para los días fríos.', 69.99, 60, 'Resources/imagen/17.jpg', 3, 2),
+    ('Set de Pinceles Artísticos', 'Set completo de pinceles artísticos de alta calidad para artistas y aficionados.', 19.99, 100, 'Resources/imagen/18.jpg', 5, 3),
+    ('Aspiradora Robot Avanzada', 'Aspiradora robot avanzada con mapeo inteligente y función de limpieza programable.', 299.99, 20, 'Resources/imagen/19.jpg', 4, 4),
+    ('Juego de Construcción de Ciencia Ficción', 'Juego de construcción que permite crear naves espaciales y escenarios de ciencia ficción.', 34.99, 35, 'Resources/imagen/20.jpg', 5, 5);
+
+
+
+
+INSERT INTO categorias (nombre) VALUES
+('Agua dulce'),
+('Agua salada'),
+('Reptiles'),
+('Roedores'),
+('Perros'),
+('Gatos'),
+('Alimentos'),
+('Plantas');

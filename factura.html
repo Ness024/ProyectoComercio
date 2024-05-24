@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        min-height: 792px;
+        max-height: 792px;
+        min-width: 1000px;
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        flex: 1;
+    }
+    * {
+        font-family: -apple-system, system-ui;
+    }
+    footer {
+        min-height: 100px; 
+        background: #009FFD;
+    }
+    div {
+        display: flex;
+        align-content: space-between;
+        justify-content: space-between
+    }
+    .a1  {
+        display: flex;
+
+    }
+    .a11, .a111 {
+        flex-direction: column;
+    }
+
+    .a111 { 
+        text-align: right;
+        align-items: flex-end;
+    }
+    p{
+        line-height: 1.5em;
+        margin: 0;
+        font-weight: 300;
+    }
+    .a11 p {
+        line-height: 1.1em;
+
+    }
+    h1 {
+        margin: 0;
+    }
+    span {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lineanaranja {
+        margin-top: 40px;
+        background: #6BD064;
+        width: 100%;
+        height: 5px; 
+        color: #6BD064;
+    }
+    .datos {
+        display: block;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+    h5 {
+        margin: 0;
+    }
+    h5:first-of-type {
+        margin-top: 70px;
+    }
+</style>
+<body>
+    <main>
+    <div>
+    <div class="a1">
+        <div>
+            <img style="height: 170px;" src="Resources/gatologo.png" alt="">
+        </div>
+        <div class="a11">
+            <h1>Gatitodeveloper</h1>
+            <p>RFC:AAA010101AAA</p>
+            <p>PetTopía S.A. de C.V.</p>
+            <p>Calle de las Mascotas #123, Colonia Animalia</p>
+            <p>Ciudad Petville, CP 12345</p> 
+            <p>País de las Mascotas</p>
+            <p>Tel: +52 123-456-577</p>
+            <p>Correo: support@pettopia.com</p>
+        </div>
+    </div>
+    <div class="a111">
+        <p>Factura:</p>
+        <p>C-00151</p>
+        <p>Folio fiscal:</p>
+        <p>3229E7E1A6614C1E93BAAC2C03F2B796</p>
+        <p>No de Serie del Certificado del CSD:</p>
+        <p>20001000000100005868</p>
+        <p>Fecha y hora de emision:</p>
+        <p id="fecha"></p>
+    </div>
+    </div>
+    <div class="lineanaranja"></div>
+    <div class="datos">
+        <p>Receptor: Publico General</p>
+        <p>RFC:</p>
+        <p>Direccion:</p>
+        <p>Tel:</p>
+    </div>
+    <br>
+    <table>
+        <thead>
+          <tr>
+            <th>Cantidad</th>
+            <th>Unidad de Medida</th>
+            <th>Descripción</th>
+            <th>Precio Unitario</th>
+            <th>Importe</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>kg</td>
+            <td>Producto A</td>
+            <td>10.00</td>
+            <td>10.00</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>unidad</td>
+            <td>Producto B</td>
+            <td>5.50</td>
+            <td>11.00</td>
+          </tr>
+          <!-- Puedes agregar más filas según sea necesario -->
+        </tbody>
+      </table>
+      <br>
+      <div>
+        <img src="Resources/qr-code.webp" style="max-width: 160px;">
+        <table style="width: 320px; text-align: right;">
+            <thead>
+              <tr>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Subtotal</td>
+                <td>100.00</td>
+              </tr>
+              <tr>
+                <td>Descuento</td>
+                <td>10.00</td>
+              </tr>
+              <tr>
+                <td>IVA (16%)</td>
+                <td>14.40</td>
+              </tr>
+              <tr>
+                <td style="background-color: #6BD064;">Total</td>
+                <td style="background-color: #6BD064;">104.40</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      <h5>Sello digital del CFDI:</h5>
+      <p>kKWJjB3mnC0JaSINXU8sA0S+W8qK2#2CHOPorYXNzflvEdbKjXSkiga LoobyNoXLz5FmyjuJqwpq6j7RThHgRQdnscGAvHyAvesRayyPOA HOHAR wWpGZLRKMHIW MahIXEBOImGU6P7NSVNQpsgMahIXEBOImGU6P7NSVNQpsg</p>
+      <h5>Sello del SAT:</h5>
+      <p>SSCGIB/14/U4EgniZovbwB+JIX6yKTuXDGPIZIgue6TZHN40GBHaD/ujkGThzRideCuroprmipsA/JVF78lz/M-aKS4/3QH+7+OwP+N80CL5cB/ORWcV6TmC2SC3xMF DNJ-7
+        nnCaxyChip OvVU1894 WeL92FjK+hxCr9s=</p>
+      <h5>Cadena Original del complemento de certificación digital del SAT:</h5>
+      <p>11.0|3229E7E1A6614C1E93BAAC2003F2B796jSCGIB7n4fU4EjgmZovowB+JX6yKTuXDCPI2gue6TZHulN40GBHaDu kGTh2Ri8eCunSpmp9AfVF78fzIM+aKS473QH+740
+        wP+N80OL6CBIORWcV6TmC26c3xMRjDNU-7mnC3xyEhi p9OvVUI894FWeL 92FJKshkO-96-120001000000100005761||</p>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+
